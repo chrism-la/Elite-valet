@@ -5,10 +5,10 @@ import { Check } from 'lucide-react';
 import CountUp from '@/components/CountUp';
 
 const stats = [
-    { number: 20, suffix: '+', label: 'Years Experience' },
-    { number: 500, suffix: '+', label: 'Events Managed' },
+    { number: 15, suffix: '+', label: 'Years Experience' },
+    { number: 250, suffix: '+', label: 'Events Managed' },
     { number: 100, suffix: '%', label: 'Licensed & Insured' },
-    { number: 30, suffix: '+', label: 'Cities serviced' },
+    { number: 10, suffix: '+', label: 'Cities serviced' },
 ];
 
 export default function Stats() {

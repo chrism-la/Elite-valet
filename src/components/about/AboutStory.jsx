@@ -4,8 +4,16 @@ import { motion } from 'framer-motion';
 
 export default function AboutStory() {
     return (
-        <section className="bg-[#0B0B0F] px-6 md:px-16 py-20 md:py-28">
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-20">
+        <section className="relative overflow-hidden bg-[#0B0B0F] px-6 md:px-16 py-20 md:py-28">
+            {/* Ambient Glow */}
+            <div className="absolute inset-0 pointer-events-none">
+                {/* Gold top-right glow */}
+                <div className="absolute top-0 right-0 h-105 w-105 bg-[#C9A227]/10 blur-[120px] rounded-full translate-x-1/3 -translate-y-1/3" />
+
+                {/* Soft white bottom-left glow */}
+                <div className="absolute bottom-0 left-0 h-90 w-90 bg-white/5 blur-[120px] rounded-full -translate-x-1/3 translate-y-1/3" />
+            </div>
+            <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-20">
                 {/* LEFT */}
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}

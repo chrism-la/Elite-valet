@@ -9,7 +9,7 @@ const locations = [
     {
         name: 'Beverly Hills',
         slug: 'beverly-hills',
-        image: '/service-areas/beverly-hills.jpg',
+        image: '/service-areas/beverly-hills.webp',
         eyebrow: 'Luxury Events & Private Residences',
         title: 'Valet service designed for Beverly Hills standards.',
         text: 'Elite Valet supports private homes, luxury events, restaurants, and high-end venues throughout Beverly Hills with polished arrival experiences and professional guest handling.',
@@ -17,7 +17,7 @@ const locations = [
     {
         name: 'Studio City',
         slug: 'studio-city',
-        image: '/service-areas/studio-city.jpg',
+        image: '/service-areas/studio-city.webp',
         eyebrow: 'Restaurants, Events & Entertainment',
         title: 'Smooth valet operations for Studio City venues.',
         text: 'From restaurant traffic to private gatherings and production-related events, our team helps manage parking flow with a clean, organized, and guest-focused approach.',
@@ -25,7 +25,7 @@ const locations = [
     {
         name: 'West Hollywood',
         slug: 'west-hollywood',
-        image: '/service-areas/west-hollywood.jpg',
+        image: '/service-areas/west-hollywood.webp',
         eyebrow: 'Hospitality & Nightlife',
         title: 'Professional valet service for West Hollywood arrivals.',
         text: 'West Hollywood venues require valet service that feels sharp, efficient, and composed. Elite Valet brings a polished presence for restaurants, lounges, hotels, and private events.',
@@ -33,7 +33,7 @@ const locations = [
     {
         name: 'Sunset Plaza',
         slug: 'sunset-plaza',
-        image: '/service-areas/sunset-plaza.jpg',
+        image: '/service-areas/sunset-plaza.webp',
         eyebrow: 'Upscale Retail & Dining',
         title: 'Refined valet support for Sunset Plaza.',
         text: 'For high-visibility dining, retail, and event locations, our valet team helps create a confident first impression from the moment guests arrive.',
@@ -41,7 +41,7 @@ const locations = [
     {
         name: 'Burbank',
         slug: 'burbank',
-        image: '/service-areas/burbank.jpg',
+        image: '/service-areas/burbank.webp',
         eyebrow: 'Studios, Corporate & Private Events',
         title: 'Reliable valet service throughout Burbank.',
         text: 'Elite Valet serves Burbank events, studios, businesses, and private venues with organized parking support built around timing, presentation, and guest convenience.',
@@ -49,7 +49,7 @@ const locations = [
     {
         name: 'Pasadena',
         slug: 'pasadena',
-        image: '/service-areas/pasadena.jpg',
+        image: '/service-areas/pasadena.webp',
         eyebrow: 'Weddings, Venues & Private Properties',
         title: 'Elegant valet service for Pasadena events.',
         text: 'From historic venues to private celebrations, our team provides professional valet service that supports a smooth arrival and departure experience.',
@@ -57,7 +57,7 @@ const locations = [
     {
         name: 'Glendale',
         slug: 'glendale',
-        image: '/service-areas/glendale.jpg',
+        image: '/service-areas/glendale.webp',
         eyebrow: 'Events, Restaurants & Corporate Locations',
         title: 'Valet service for Glendale’s busiest destinations.',
         text: 'Elite Valet helps Glendale venues and event hosts manage guest parking with dependable service, clean presentation, and attentive on-site coordination.',
